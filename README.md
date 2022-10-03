@@ -10,3 +10,4 @@ Sublime Text plugin for [Chialisp](https://github.com/typescript-language-server
 ## Configuration
 
 Open the configuration file using the Command Palette `Preferences: Chialisp Settings` command or open it from the Sublime menu.
+
