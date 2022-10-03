@@ -102,12 +102,6 @@
         </dict>
         <dict>
             <key>match</key>
-            <string>(&optional|&rest|&key|&body|&allow-other-keys)</string>
-            <key>name</key>
-            <string>keyword.control.lisp</string>
-        </dict>
-        <dict>
-            <key>match</key>
             <string>\b(?i:eq|neq|and|or)\b</string>
             <key>name</key>
             <string>keyword.operator.lisp</string>
