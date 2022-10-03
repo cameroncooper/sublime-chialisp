@@ -1,9 +1,6 @@
 import os
-import sublime
-import sublime_plugin
 from LSP.plugin.core.typing import Tuple
 from lsp_utils import NpmClientHandler
-from lsp_utils import request_handler
 
 
 def plugin_loaded() -> None:
