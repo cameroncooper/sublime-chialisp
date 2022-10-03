@@ -3,5 +3,5 @@
 		"diagnostics.ignoredCodes": [],
 	},
 	"command": ["${node_bin}", "${server_path}"],
-	"selector": "source.clsp | source.cl | source.clvm | source.clinc | source.slib",
+	"selector": "source.clsp | source.cl | source.clvm | source.clinc | source.clib",
 }
