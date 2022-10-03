@@ -1,13 +1,4 @@
 {
-	"initializationOptions": {
-		"locale": "en",
-		"logVerbosity": "off",
-		"maxTsServerMemory": 0,
-		"npmLocation": "",
-		"plugins": [],
-		"preferences": {
-		},
-	},
 	"settings": {
 		"diagnostics.ignoredCodes": [],
 	},

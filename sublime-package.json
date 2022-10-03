@@ -10,12 +10,6 @@
           "definitions": {
             "PluginConfig": {
               "properties": {
-                "initializationOptions": {
-                  "type": "object",
-                  "additionalProperties": false,
-                  "properties": {
-                  }
-                },
                 "settings": {
                   "type": "object",
                   "additionalProperties": false,
