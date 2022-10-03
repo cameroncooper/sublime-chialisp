@@ -1,0 +1,70 @@
+{
+  "contributions": {
+    "settings": [
+      {
+        "file_patterns": [
+          "/Chialisp.sublime-settings"
+        ],
+        "schema": {
+          "$id": "sublime://settings/Chialisp",
+          "definitions": {
+            "PluginConfig": {
+              "properties": {
+                "initializationOptions": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                  }
+                },
+                "settings": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "diagnostics.ignoredCodes": {
+                      "type": "array",
+                      "items": {
+                        "type": "number",
+                        "uniqueItems": true
+                      },
+                      "default": [],
+                      "markdownDescription": "Diagnostics code to be omitted when reporting diagnostics."
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "type": "object",
+          "allOf": [
+            {
+              "$ref": "sublime://settings/LSP-plugin-base"
+            },
+            {
+              "$ref": "sublime://settings/Chialisp#/definitions/PluginConfig"
+            }
+          ]
+        }
+      },
+      {
+        "file_patterns": [
+          "/*.sublime-project"
+        ],
+        "schema": {
+          "properties": {
+            "settings": {
+              "properties": {
+                "LSP": {
+                  "properties": {
+                    "Chialisp": {
+                      "$ref": "sublime://settings/Chialisp#/definitions/PluginConfig"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+}

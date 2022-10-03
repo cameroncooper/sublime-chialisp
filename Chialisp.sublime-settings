@@ -1,0 +1,16 @@
+{
+	"initializationOptions": {
+		"locale": "en",
+		"logVerbosity": "off",
+		"maxTsServerMemory": 0,
+		"npmLocation": "",
+		"plugins": [],
+		"preferences": {
+		},
+	},
+	"settings": {
+		"diagnostics.ignoredCodes": [],
+	},
+	"command": ["${node_bin}", "${server_path}"],
+	"selector": "source.clsp | source.cl | source.clvm | source.clinc | source.slib",
+}
